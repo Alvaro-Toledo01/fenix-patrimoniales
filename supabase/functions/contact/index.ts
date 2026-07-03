@@ -6,6 +6,7 @@ const SERVICE_LABELS: Record<string, string> = {
   "auto": "Seguro de Auto",
   "hogar": "Seguro de Hogar",
   "financiera": "Planificación Financiera y Retiro",
+  "empresarial": "Seguro Empresarial",
   "todos": "Todos los productos",
 };
 

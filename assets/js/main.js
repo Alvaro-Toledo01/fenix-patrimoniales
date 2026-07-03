@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
           auto: "Seguro de Auto",
           hogar: "Seguro de Hogar",
           financiera: "Planificación Financiera y Retiro",
+          empresarial: "Seguro Empresarial",
           todos: "Todos los productos"
         };
         var subject = "Nueva consulta de " + data.name + " - FENIX Patrimoniales";

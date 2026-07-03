@@ -1,0 +1,12 @@
+{
+  "name": "fenix-patrimoniales",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web de FENIX Patrimoniales - despacho de seguros",
+  "scripts": {
+    "serve": "npx serve -l 8080 ."
+  },
+  "dependencies": {
+    "@supabase/server": "^1.2.0"
+  }
+}

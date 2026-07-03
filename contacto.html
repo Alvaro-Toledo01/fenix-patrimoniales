@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | FENIX Patrimoniales</title>
+<meta name="description" content="Solicita tu asesoría gratuita. Teléfono, WhatsApp, correo y agenda de citas en línea.">
+<link rel="icon" href="assets/img/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="assets/img/logo.jpg" alt="FENIX Patrimoniales"></a>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+    <a href="contacto.html" class="btn btn-primary cta-header">Asesoría Gratuita</a>
+    <button class="mobile-menu-btn" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container inner">
+      <h1><span class="accent">Asesoría</span> Personalizada Gratuita</h1>
+      <p>Cada persona tiene necesidades únicas. Nuestros asesores especializados te ayudan a encontrar la protección perfecta para ti y tu familia, sin costo alguno.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="contact-info-grid">
+        <div class="card contact-info-card">
+          <div class="icon-box bg-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.804 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.196 6.284"/></svg></div>
+          <h3>Teléfono</h3>
+          <p>+52 446 477 0029</p>
+        </div>
+        <div class="card contact-info-card">
+          <div class="icon-box bg-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+          <h3>Email</h3>
+          <p style="word-break:break-all;">fenixpatrimoniales@gmail.com</p>
+        </div>
+        <div class="card contact-info-card">
+          <div class="icon-box bg-slate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <h3>Horario de Atención</h3>
+          <p>Lunes a Viernes: 9:00 - 19:00</p>
+          <p>Sábados: 9:00 - 14:00</p>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="form-card">
+          <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--blue-600)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Solicita tu Asesoría Gratuita</h2>
+          <p>Completa el formulario y un asesor especializado te contactará en menos de 24 horas para brindarte una consulta personalizada sin compromiso.</p>
+
+          <form id="contact-form">
+            <div class="form-row two-col">
+              <div class="form-group">
+                <label for="name">Nombre completo *</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Teléfono *</label>
+                <input type="tel" id="phone" name="phone" placeholder="Tu número de teléfono" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="service">¿Qué producto te interesa? *</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Selecciona el producto de tu interés</option>
+                <option value="vida">Seguro de Vida</option>
+                <option value="gastos-medicos">Gastos Médicos Mayores</option>
+                <option value="auto">Seguro de Auto</option>
+                <option value="hogar">Seguro de Hogar</option>
+                <option value="financiera">Planificación Financiera y Retiro</option>
+                <option value="todos">Todos los productos</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Cuéntanos sobre tu situación</label>
+              <textarea id="message" name="message" rows="4" placeholder="Describe brevemente tu situación actual, qué tipo de protección buscas, presupuesto aproximado, etc. Esto nos ayudará a preparar mejor tu asesoría."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block btn-lg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              Solicitar Asesoría Gratuita
+            </button>
+          </form>
+
+          <div id="form-success" class="success-box" style="display:none;">
+            <div class="success-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg></div>
+            <h3>¡Solicitud Recibida!</h3>
+            <p>Gracias por tu interés en nuestros servicios. Un asesor especializado se comunicará contigo en las próximas 24 horas para agendar tu consulta personalizada.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="side-card">
+            <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.804 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.196 6.284"/></svg>Atención de Emergencia 24/7</h3>
+            <p style="color:var(--slate-600);margin-bottom:1rem;">Para siniestros y emergencias fuera del horario de oficina:</p>
+            <div class="emergency-box">
+              <div class="num">+52 446 477 0029</div>
+              <div class="label">Disponible 24 horas, 365 días</div>
+            </div>
+            <a href="https://wa.me/524464770029?text=Hola%2C%20quiero%20una%20asesor%C3%ADa%20personalizada" target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Escribir por WhatsApp
+            </a>
+          </div>
+
+          <div class="side-card no-border benefits-card">
+            <h3 style="color:var(--slate-800);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--blue-600)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>¿Por qué solicitar una asesoría?</h3>
+            <div class="benefit-item"><svg class="check-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Análisis personalizado de tus necesidades</div>
+            <div class="benefit-item"><svg class="check-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Comparación de productos sin compromiso</div>
+            <div class="benefit-item"><svg class="check-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Recomendaciones basadas en tu presupuesto</div>
+            <div class="benefit-item"><svg class="check-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Seguimiento post-contratación</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-alt">
+    <div class="container" style="max-width:64rem;">
+      <div class="section-header" style="margin-bottom:2.5rem;">
+        <h2>Agenda tu <span class="text-gradient">Cita en Línea</span></h2>
+        <p>Elige el día y hora que mejor te convenga. La cita es completamente gratuita.</p>
+      </div>
+      <div class="calendly-wrap">
+        <iframe src="https://calendly.com/alvaro-toledo-e01" title="Agendar cita con FENIX Patrimoniales" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-logo"><img src="assets/img/logo.jpg" alt="FENIX Patrimoniales"></div>
+      <p>Con más de 12 años de experiencia, protegemos lo que más valoras. Somos tu aliado confiable en seguros patrimoniales.</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/álvaro-toledo-elías" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+    <div>
+      <h4>Enlaces Rápidos</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <div class="footer-contact-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.804 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.196 6.284"/></svg>
+        <span>+52 446 477 0029</span>
+      </div>
+      <div class="footer-contact-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <span style="font-size:0.9rem;word-break:break-all;">fenixpatrimoniales@gmail.com</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 FENIX Patrimoniales. Todos los derechos reservados.</div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

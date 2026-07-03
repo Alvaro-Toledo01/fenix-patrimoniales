@@ -1,0 +1,4 @@
+# Supabase project config
+# La función "contact" se autentica con la publishable key (no requiere JWT de usuario)
+[functions.contact]
+verify_jwt = false
